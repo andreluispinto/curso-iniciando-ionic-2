@@ -1,0 +1,23 @@
+<ion-menu [content]="myContent">
+
+  <ion-header>
+
+    <ion-toolbar>
+      <ion-title>Menu<ion-title>
+
+    <ion-toolbar>
+
+  <ion-header>
+    <ion-content>
+
+      <ion-list>
+        <botton ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+        <botton>
+
+      <ion-list>
+
+    <ion-content>
+<ion-menu>
+
+<ion-nav #myContent [root]="rootPage"></ion-nav>
